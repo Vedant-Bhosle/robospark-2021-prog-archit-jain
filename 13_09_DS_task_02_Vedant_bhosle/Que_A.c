@@ -64,7 +64,7 @@ int main()
         a[i].account_num = i;
         printf("Your account number is: %d\n",a[i].account_num);
         printf("Please enter your name: ");
-        scanf("%s", &a[i].name);
+        scanf("%s", a[i].name);
         printf("Enter the balance     : ");
         scanf("%d", &a[i].amount);
     }
